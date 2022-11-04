@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#contenedor-principal {
+    min-height: 100vh;
+    background-color: #F2F3F4;
+
+    #login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+
+        .card {
+            width: 28vw;
+        }
+    }
+
+    #contenedor-secundario {
+        transition-duration: .2s;
+        min-height: 100vh;
+        padding: 25px;
+    }
+
+    label {
+        font-weight: 500;
+    }
+
+    .btn-primary,.btn-success,.btn-danger,.btn-dark {
+        color: #fff
+    }
+
+    .btn-primary:hover,.btn-success:hover,.btn-danger:hover,.btn-dark:hover {
+        color: #fff
+    }
+
+    .form-control, .form-select {
+        background-color: #fff;
+    }
+}
